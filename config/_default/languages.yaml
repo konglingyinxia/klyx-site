@@ -1,0 +1,12 @@
+en:
+  languageName: English
+  weight: 1
+
+zh-hans:
+  languageName: 简体中文
+  weight: 4
+  params:
+    description: 空灵隐侠的知识博客图谱
+    keywords: '空灵隐侠，konglingyinxia，博客，文档，文章'
+    archive:
+      dateFormat: 01-02
