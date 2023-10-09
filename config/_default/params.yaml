@@ -255,14 +255,14 @@ repo:
 
 topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
-  social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+#   social:
+#     github: razonyang/hugo-theme-bootstrap
+#     patreon: razonyang
+#     paypal: razonyang
 
 #docs:
   # nav:
     # expand: true # Expand docs navigations.
 
-#feeds:
-  # content: true
+# feeds:
+#   content: true
