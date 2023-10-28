@@ -1,11 +1,13 @@
 ---
 date: 2023-10-28
-title: ubuntu22.04配置swap 交换区
+title: swap配置
 linkTitle: ubuntu22.04配置swap 交换区
+featured: true
+
 series:
   - 服务器
 categories:
-  - swap
+  - 服务器
 tags:
   - Linux
   - swap
