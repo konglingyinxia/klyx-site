@@ -50,7 +50,6 @@ tags:
 
 `dd if=/dev/zero of=/data/swapfile bs=1M count=1024`
 
-
 - 交换文件格式化为swap分区
 
   `mkswap /data/swapfile`
@@ -77,3 +76,15 @@ tags:
 
     - 请注意，使用交换空间可能会对系统性能产生一定的影响，因为交换空间的读写速度远低于物理内存。因此，建议在具有足够物理内存的情况下，根据您的实际需求和系统负载来决定是否启用交换空间。
 
+---
+
+### 查看是否需设置 swap使用优先级
+
+```
+#查看优先级设置，0不使用swap分区，100尽可能使用swap分区，根据需求设置一个中间值即可
+cat /proc/sys/vm/swappiness
+#临时设置优先级
+sysctl vm.swappiness=50
+#设置开机自动生效
+echo "vm.swappiness = 50"  >>  /etc/sysctl.conf
+```
